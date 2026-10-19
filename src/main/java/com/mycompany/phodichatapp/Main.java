@@ -11,9 +11,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner inputDevice = new Scanner(System.in);
-        Login loginSystem = new Login(); // Assumes your Part 1 Login works
+        Login loginSystem = new Login(); 
 
-        // --- PART 1: REGISTRATION & LOGIN ---
+        // PART 1: REGISTRATION & LOGIN 
         System.out.println("=== REGISTRATION ===");
         System.out.print("Enter First Name: ");
         String firstName = inputDevice.nextLine();
@@ -50,7 +50,7 @@ public class Main {
         inputDevice.close();
     } 
 
-    // --- PART 2: THE MENU LOOP ---
+    // PART 2: THE MENU LOOP 
     public static void startQuickChat(Scanner inputDevice) {
         boolean running = true;
         int messageCounter = 0;
