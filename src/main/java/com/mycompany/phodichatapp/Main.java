@@ -114,6 +114,7 @@ public class Main {
                             }
                         }
 
+                        
                         // Create the message
                         Message finalMessage = new Message(messageCounter, recipient, messageText);
 
